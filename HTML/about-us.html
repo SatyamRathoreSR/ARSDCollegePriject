@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/img-DS.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+  </head>
+  <style>
+    body {
+      overflow-x: hidden;
+      font-family: "Montserrat";
+    }
+
+    .mapouter {
+      position: relative;
+      text-align: right;
+      border-radius: 14px;
+    }
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 10%;
+    }
+    .col {
+      width: 45%;
+      margin: 0 10px 0 10px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #about-us,
+    h1 {
+      font-family: "Montserrat";
+    }
+    nav {
+      position: relative;
+      background: transparent;
+    }
+    p {
+      text-align: justify;
+    }
+    figure > img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      border-radius: 7px;
+    }
+  </style>
+  <body>
+    <div class="se-pre-con"></div>
+    <nav>
+      <ul>
+        <li class="primary-nav">
+          <img src="../Images/img-DS.png" alt="logo" />
+          <a href="../index.html">Grocery Store</a>
+        </li>
+        <li class="secondary-nav">
+          <a href="../HTML/checkout.html">
+            <i class="fas fa-shopping-cart"></i> CART
+          </a>
+        </li>
+        <li class="secondary-nav"><a href="../HTML/vege.html">SHOP</a></li>
+        <li class="secondary-nav">
+          <a href="../HTML/about-us.html">ABOUT US</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>About Grocery Store</h1>
+    <div class="row">
+      <section class="mapouter col">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="500vw"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=moi%20avenue&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="about-us" class="col">
+        <p> Grocery Store </p>
+          <p> What began little, with a solitary idea of a store that provides a rebate and the basic thought of moving more for less, has become in the course of the last 40 years into the biggest retailer in this whole country.</p>
+          <p>
+Every week, about 265 million clients and individuals visit our in excess of 13,200 stores under 55 standards in 27 nations and eCommerce sites in 10 nations.</p>
+<p>
+With the financial year 2018 income of $500.3 billion, Grocery Store utilizes over 2.2 million partners around the world.</p>
+<p>
+Grocery Store keeps on being an innovator in supportability, corporate magnanimity, and work opportunity. It’s everything part of our relentless promise to make openings and convey an incentive to clients and networks the world over.
+        </p>
+          </section>
+    </div>
+  </body>
+</html>
